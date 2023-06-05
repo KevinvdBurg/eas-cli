@@ -105,7 +105,6 @@ function buildQuestionObject({ type, question }: Question, initialValue?: string
         type: 'password',
         name: 'input',
         message: question,
-        validate: validateNonEmptyInput,
       };
   }
 }
